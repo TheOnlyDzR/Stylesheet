@@ -181,10 +181,6 @@ table ul.options_list {
     padding: 0
 }
 
-.div.head.colhead_dark {
-letter-spacing: -1px;
-}
-
 .colhead,
 .colhead_dark {
     background-color: #383738;
