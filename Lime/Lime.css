@@ -1271,14 +1271,14 @@ blockquote {
 }
 
 div.tp-banner {
-    background-image: url(https://dl.dropboxusercontent.com/u/32227426/noban.png);
+    background-image: url(https://theonlydzr.github.io/Stylesheet/Lime/res/nobanner.png);
     background-repeat: no-repeat;
     background-size: 190px 35px;
     height: 35px;
 }
 
 div.tp-banner img[src*="mtv_red_gloss"], div.tp-banner img[src*="default"] {
-    background-image: url(https://dl.dropboxusercontent.com/u/32227426/noban.png);
+    background-image: url(https://theonlydzr.github.io/Stylesheet/Lime/res/nobanner.png);
     background-repeat: no-repeat;
     background-size: 190px 35px;
     height: 35px;
@@ -1445,13 +1445,13 @@ div.tp-banner img[src*="mtv_red_gloss"], div.tp-banner img[src*="default"] {
 }
 
 .cats_movies {
-    background: url(https://dl.dropboxusercontent.com/u/32227426/mov2.png) no-repeat center center;
+    background: url(https://theonlydzr.github.io/Stylesheet/Lime/res/mov2.png) no-repeat center center;
     height: 35px;
     width: 9px;
 }
 
 .cats_tv {
-    background: url(https://dl.dropboxusercontent.com/u/32227426/tv2.png) no-repeat center center
+    background: url(https://theonlydzr.github.io/Stylesheet/Lime/res/tv2.png) no-repeat center center
 ;
     height: 35px;
     width: 9px;
