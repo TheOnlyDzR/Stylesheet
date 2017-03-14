@@ -1227,7 +1227,7 @@ ul.collage_images li a>span {
 #torrents .filter_torrents .ft_submit input {
     margin-right: 4px
 }
-#torrents .filter_torrents .ft_submit span {
+#torrents .filter_torrents {
     -ms-flex-order: 2;
     order: 2
 }
