@@ -1582,7 +1582,7 @@ div.submit.ft_submit input {
     text-transform: uppercase;
 }
 
-div.submit.ft_submit {
+span.submit.ft_submit {
     color: #ffffff;
     float: right;
     font-size: 14px;
