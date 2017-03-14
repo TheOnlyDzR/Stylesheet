@@ -1580,6 +1580,7 @@ div.submit.ft_submit input {
     font-size: 11px;
     height: 25px;
     text-transform: uppercase;
+    float: right;
 }
 
 .submit.ft_submit span {
