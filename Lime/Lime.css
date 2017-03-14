@@ -1253,3 +1253,19 @@ blockquote {
 
 table#torrent_table td.cats_col {
 min-width: 240px;
+
+div.tp-banner {
+    background-image: url(https://dl.dropboxusercontent.com/u/32227426/noban.png);
+    background-repeat: no-repeat;
+    background-size: 190px 35px;
+    height: 35px;
+}
+
+div.tp-banner img[src*="mtv_red_gloss"], div.tp-banner img[src*="default"] {
+    background-image: url(https://dl.dropboxusercontent.com/u/32227426/noban.png);
+    background-repeat: no-repeat;
+    background-size: 190px 35px;
+    height: 35px;
+    padding-left: 190px;
+    width: 0;
+}
