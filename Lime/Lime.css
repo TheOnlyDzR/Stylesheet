@@ -1427,7 +1427,7 @@ div.tp-banner img[src*="mtv_red_gloss"], div.tp-banner img[src*="default"] {
 }
 
 #nav_wiki a:before {
-    content: "?";
+    content: "\f02d";
     font-family: 'Fontawesome';
     left: 0px;
     padding-right: 0.5em;
