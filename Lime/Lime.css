@@ -658,11 +658,11 @@ table.box2 {
     top: 31px;
     right: -8px;
     background-color: #3b4d18;
-    border-radius: 0 5px 0 0
 }
 #menu {
     overflow: hidden;
 }
+
 .linkbox br {
     display: block;
     line-height: 4px;
