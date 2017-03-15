@@ -661,12 +661,11 @@ table.box2 {
     border-radius: 0 5px 0 0
 }
 #menu {
-    border-radius: 5px 5px 0 0;
-    overflow: hidden
+    overflow: hidden;
 }
 .linkbox br {
     display: block;
-    line-height: 4px
+    line-height: 4px;
 }
 .linkbox>strong {
     color: #c2c2c2
