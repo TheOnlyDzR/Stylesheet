@@ -327,7 +327,7 @@ strong.important_text_alt {
 }
 #wrapper {
     margin: auto;
-    max-width: 1920px;
+    max-width: 1200px;
     min-width: 1024px
 }
 .main_column {
@@ -1292,7 +1292,7 @@ div.tp-banner img[src*="mtv_red_gloss"], div.tp-banner img[src*="default"] {
 
 #header {
     max-width: 1200px;
-    min-width: 980px;
+    min-width: 1024px;
 }
 
 #nav_collages a {
@@ -1436,7 +1436,7 @@ div.tp-banner img[src*="mtv_red_gloss"], div.tp-banner img[src*="default"] {
 }
 
 #wrapper {
-    max-width: 1280px;
+    max-width: 1200px;
     min-width: 1024px;
 }
 
@@ -1611,7 +1611,7 @@ div.thin h2 {
 }
 
 div.thin.widethin {
-    max-width: 1280px;
+    max-width: 1200px;
     min-width: 1024px;
 }
 
