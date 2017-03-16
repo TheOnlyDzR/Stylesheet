@@ -327,8 +327,8 @@ strong.important_text_alt {
 }
 #wrapper {
     margin: auto;
-    max-width: 920px;
-    min-width: 680px
+    max-width: 1920px;
+    min-width: 1024px
 }
 .main_column {
     max-width: calc(100% - 248px)
@@ -1437,7 +1437,7 @@ div.tp-banner img[src*="mtv_red_gloss"], div.tp-banner img[src*="default"] {
 
 #wrapper {
     max-width: 1280px;
-    min-width: 960px;
+    min-width: 1024px;
 }
 
 * {
@@ -1612,7 +1612,7 @@ div.thin h2 {
 
 div.thin.widethin {
     max-width: 1280px;
-    min-width: 960px;
+    min-width: 1024px;
 }
 
 span.brackets {
