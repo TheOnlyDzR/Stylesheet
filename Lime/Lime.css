@@ -567,7 +567,7 @@ table.box2 {
     height: 51px;
     width: 50px;
     line-height: 50px;
-    background: url(https://dl.dropboxusercontent.com/u/32227426/menu.png) no-repeat;
+    background: url(https://theonlydzr.github.io/Stylesheet/Lime/res/menu.png) no-repeat;
     background-size: 20px 20px;
     background-position: center; 
 }
@@ -1215,11 +1215,11 @@ ul.collage_images li a>span {
 #dnulist tr:not(.colhead):not(.colhead_dark):nth-child(odd) {
     background-color: #323132
 }
-/* #torrents .filter_torrents .ft_submit { 
+#torrents .filter_torrents .ft_submit { 
     display: -ms-flexbox;
     display: flex;
     -ms-flex-flow: row nowrap;
-    flex-flow: row nowrap */
+    flex-flow: row nowrap;
 }
 #torrents .filter_torrents .ft_submit input {
     margin-right: 4px
@@ -1251,15 +1251,18 @@ blockquote {
     -webkit-hyphens: unset;
     -ms-hyphens: unset;
     hyphens: unset
+
 }
 #searchbars .search_form {
     background: 0 0
+
 }
 #searchbars .search_form input {
     height: 30px;
     border-radius: 2.5px;
     border: none
 }
+
 #searchbars .search_form input:focus {
     backgroun 35px;
     height: 35px;
@@ -1433,8 +1436,8 @@ div.tp-banner img[src*="mtv_red_gloss"], div.tp-banner img[src*="default"] {
 }
 
 #wrapper {
-    max-width: 1200px;
-    min-width: 980px;
+    max-width: 1280px;
+    min-width: 960px;
 }
 
 * {
@@ -1448,8 +1451,7 @@ div.tp-banner img[src*="mtv_red_gloss"], div.tp-banner img[src*="default"] {
 }
 
 .cats_tv {
-    background: url(https://theonlydzr.github.io/Stylesheet/Lime/res/tv2.png) no-repeat center center
-;
+    background: url(https://theonlydzr.github.io/Stylesheet/Lime/res/tv2.png) no-repeat center center;
     height: 35px;
     width: 9px;
 }
@@ -1555,7 +1557,7 @@ div.group_info.group_info2.clear span {
 
 div.head {
     background-color: #383738;
-    border-bottom-width: 2pxpxpx;
+    border-bottom-width: 2px;
     border-left-width: 0;
     border-right-width: 0;
     border-style: none;
@@ -1582,7 +1584,6 @@ div.submit.ft_submit input {
 
 .submit.ft_submit span {
     color: #ffffff;
-    float: right;
     font-size: 14px;
 }
 
@@ -1610,8 +1611,8 @@ div.thin h2 {
 }
 
 div.thin.widethin {
-    max-width: 1200px;
-    min-width: 980px;
+    max-width: 1280px;
+    min-width: 960px;
 }
 
 span.brackets {
@@ -1652,9 +1653,6 @@ span.flag_sticky:after {
     color: #5bb700;
     font-size: 14px;
     padding: 10px;
-}
-
-span.size3 {
 }
 
 span.time.tooltip {
