@@ -1591,13 +1591,13 @@ div.tags a {
     background-color: #617a2b;
     border-radius: 2px;
     color: #ddf5ae;
-    font-size: 9px;
+    font-size: 10px;
     letter-spacing: 0.4px;
     padding-bottom: 1px;
     padding-left: 3px;
     padding-right: 3px;
     padding-top: 1px;
-    text-transform: uppercase;
+
 }
 
 div.tags a:hover {
