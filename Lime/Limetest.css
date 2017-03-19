@@ -566,11 +566,11 @@ table.box2 {
 }
 #userinfo_minor:before {
     display: block;
-    content: "";
+    content: "\f0c9";
     font-family: 'Fontawesome';
     font-size: 18px;
-    position: relative;
     text-align: center;
+}
 }
 
 #userinfo_minor:hover:before {
