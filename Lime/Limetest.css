@@ -574,9 +574,10 @@ table.box2 {
     font-size: 18px;
     text-align: center;
 }
-}
 
 #userinfo_minor:hover:before {
+    padding-left: 100px;
+    text-align: center;
     transition: 0.3s;
     filter: brightness(20%);
 }
