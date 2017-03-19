@@ -1390,7 +1390,7 @@ min-width: 240px;
 }
 
 #nav_top10 a:before {
-    content: "/f161";
+    content: "\f161";
     font-family: 'Fontawesome';
     left: 0px;
     padding-right: 0.5em;
