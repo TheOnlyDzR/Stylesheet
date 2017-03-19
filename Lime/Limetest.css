@@ -573,14 +573,12 @@ table.box2 {
     font-family: 'Fontawesome';
     font-size: 18px;
     text-align: center;
-
 }
 }
 
 #userinfo_minor:hover:before {
-    margin-left: 100px;
     transition: 0.3s;
-    filter: brightness(30%);
+    filter: brightness(20%);
 }
 #userinfo_major>li,
 #userinfo_stats>li,
