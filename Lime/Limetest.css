@@ -1660,6 +1660,8 @@ div.head strong {
 
 .mtv_download {
     background: transparent;
+	    padding-right: 2px;
+    padding-left: 2px;
 }
 
 .mtv_download:before {
@@ -1674,6 +1676,8 @@ div.head strong {
 
 .mtv_report {
     background: transparent;
+	    padding-right: 2px;
+    padding-left: 2px;
 }
 
 .mtv_report:before {
@@ -1684,17 +1688,7 @@ div.head strong {
 
 .mtv_report:hover {
     color: #e24a4a;
-}
-
-span.mtv_report {
-    padding-right: 2px;
-    padding-left: 2px;
-}
-
-span.mtv_download {
-    padding-right: 2px;
-    padding-left: 2px;
-}
+} 
 
 div.group_info.group_info2.clear span {
     padding-right: 0;
