@@ -168,7 +168,10 @@ table {
     width: 100%;
     border-collapse: collapse
 }
-
+table .rowa,
+table .rowb {
+    border-top: 2px solid #242324
+}
 table .rowa:nth-child(odd),
 table .rowb:nth-child(odd) {
     background-color: #323132
@@ -177,7 +180,6 @@ table ul.options_list {
     margin: 0;
     padding: 0
 }
-
 .colhead,
 .colhead_dark {
     background-color: #383738;
@@ -327,8 +329,8 @@ strong.important_text_alt {
 }
 #wrapper {
     margin: auto;
-    max-width: 1200px;
-    min-width: 1024px
+    max-width: 920px;
+    min-width: 680px
 }
 .main_column {
     max-width: calc(100% - 248px)
@@ -477,7 +479,7 @@ table.box2 {
     display: block;
     margin-top: 2px;
     height: 39px;
-    background: url("https://theonlydzr.github.io/Stylesheet/Lime/res/Logo.png") center no-repeat;
+    background: url(https://dl.dropboxusercontent.com/u/32227426/lolololo2.png) center no-repeat;
     background-size: 235px
 }
 #menu>ul {
@@ -567,7 +569,7 @@ table.box2 {
     height: 51px;
     width: 50px;
     line-height: 50px;
-    background: url(https://theonlydzr.github.io/Stylesheet/Lime/res/menu.png) no-repeat;
+    background: url(https://dl.dropboxusercontent.com/u/32227426/menu.png) no-repeat;
     background-size: 20px 20px;
     background-position: center; 
 }
@@ -661,14 +663,15 @@ table.box2 {
     border-radius: 0 5px 0 0
 }
 #menu {
-    overflow: hidden;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden
 }
 .linkbox br {
     display: block;
-    line-height: 4px;
+    line-height: 4px
 }
 .linkbox>strong {
-    color: #B5D96C
+    color: #c2c2c2
 }
 #footer,
 .alertbar {
@@ -1215,16 +1218,16 @@ ul.collage_images li a>span {
 #dnulist tr:not(.colhead):not(.colhead_dark):nth-child(odd) {
     background-color: #323132
 }
-#torrents .filter_torrents .ft_submit { 
+/* #torrents .filter_torrents .ft_submit { 
     display: -ms-flexbox;
     display: flex;
     -ms-flex-flow: row nowrap;
-    flex-flow: row nowrap;
+    flex-flow: row nowrap */
 }
 #torrents .filter_torrents .ft_submit input {
     margin-right: 4px
 }
-#torrents .filter_torrents {
+#torrents .filter_torrents .ft_submit span {
     -ms-flex-order: 2;
     order: 2
 }
@@ -1251,48 +1254,34 @@ blockquote {
     -webkit-hyphens: unset;
     -ms-hyphens: unset;
     hyphens: unset
-
 }
 #searchbars .search_form {
     background: 0 0
-
 }
 #searchbars .search_form input {
     height: 30px;
     border-radius: 2.5px;
     border: none
 }
-
 #searchbars .search_form input:focus {
-    backgroun 35px;
-    height: 35px;
-    padding-left: 190px;
-    width: 0;
+    background: #242324
 }
 
-div.tp-banner {
-    background-image: url(https://theonlydzr.github.io/Stylesheet/Lime/res/nobanner.png);
-    background-repeat: no-repeat;
-    background-size: 190px 35px;
-    height: 35px;
-}
-
-div.tp-banner img[src*="mtv_red_gloss"], div.tp-banner img[src*="default"] {
-    background-image: url(https://theonlydzr.github.io/Stylesheet/Lime/res/nobanner.png);
-    background-repeat: no-repeat;
-    background-size: 190px 35px;
-    height: 35px;
-    padding-left: 190px;
-    width: 0;
-}
+table#torrent_table td.cats_col {
+min-width: 240px;
 
 #ft_advanced_link a {
     font-weight: normal;
 }
 
 #header {
-    max-width: 1200px;
+    max-width: 1280px;
     min-width: 1024px;
+}
+
+#logo>a {
+    background: url(https://dl.dropboxusercontent.com/u/32227426/lolololo2.png) center no-repeat;
+    background-size: 250px;
 }
 
 #nav_collages a {
@@ -1301,7 +1290,7 @@ div.tp-banner img[src*="mtv_red_gloss"], div.tp-banner img[src*="default"] {
 }
 
 #nav_collages a:before {
-    content: "";
+    content: "?";
     font-family: 'Fontawesome';
     left: 0px;
     padding-right: 0.5em;
@@ -1315,7 +1304,7 @@ div.tp-banner img[src*="mtv_red_gloss"], div.tp-banner img[src*="default"] {
 }
 
 #nav_forums a:before {
-    content: "";
+    content: "?";
     font-family: 'Fontawesome';
     left: 0px;
     padding-right: 0.5em;
@@ -1329,7 +1318,7 @@ div.tp-banner img[src*="mtv_red_gloss"], div.tp-banner img[src*="default"] {
 }
 
 #nav_index a:before {
-    content: "";
+    content: "?";
     font-family: 'Fontawesome';
     left: 0px;
     padding-right: 0.5em;
@@ -1343,7 +1332,7 @@ div.tp-banner img[src*="mtv_red_gloss"], div.tp-banner img[src*="default"] {
 }
 
 #nav_irc a:before {
-    content: "";
+    content: "?";
     font-family: 'Fontawesome';
     left: 0px;
     padding-right: 0.5em;
@@ -1357,7 +1346,7 @@ div.tp-banner img[src*="mtv_red_gloss"], div.tp-banner img[src*="default"] {
 }
 
 #nav_market a:before {
-    content: "";
+    content: "?";
     font-family: 'Fontawesome';
     left: 0px;
     padding-right: 0.5em;
@@ -1371,7 +1360,7 @@ div.tp-banner img[src*="mtv_red_gloss"], div.tp-banner img[src*="default"] {
 }
 
 #nav_requests a:before {
-    content: "";
+    content: "?";
     font-family: 'Fontawesome';
     left: 0px;
     padding-right: 0.5em;
@@ -1385,7 +1374,7 @@ div.tp-banner img[src*="mtv_red_gloss"], div.tp-banner img[src*="default"] {
 }
 
 #nav_series a:before {
-    content: "";
+    content: "?";
     font-family: 'Fontawesome';
     left: 0px;
     padding-right: 0.5em;
@@ -1399,7 +1388,7 @@ div.tp-banner img[src*="mtv_red_gloss"], div.tp-banner img[src*="default"] {
 }
 
 #nav_top10 a:before {
-    content: "";
+    content: "?";
     font-family: 'Fontawesome';
     left: 0px;
     padding-right: 0.5em;
@@ -1413,7 +1402,7 @@ div.tp-banner img[src*="mtv_red_gloss"], div.tp-banner img[src*="default"] {
 }
 
 #nav_torrents a:before {
-    content: "";
+    content: "?";
     font-family: 'Fontawesome';
     left: 0px;
     padding-right: 0.5em;
@@ -1427,7 +1416,7 @@ div.tp-banner img[src*="mtv_red_gloss"], div.tp-banner img[src*="default"] {
 }
 
 #nav_wiki a:before {
-    content: "\f02d";
+    content: "?";
     font-family: 'Fontawesome';
     left: 0px;
     padding-right: 0.5em;
@@ -1436,7 +1425,7 @@ div.tp-banner img[src*="mtv_red_gloss"], div.tp-banner img[src*="default"] {
 }
 
 #wrapper {
-    max-width: 1200px;
+    max-width: 1280px;
     min-width: 1024px;
 }
 
@@ -1445,47 +1434,16 @@ div.tp-banner img[src*="mtv_red_gloss"], div.tp-banner img[src*="default"] {
 }
 
 .cats_movies {
-    background: url(https://theonlydzr.github.io/Stylesheet/Lime/res/mov2.png) no-repeat center center;
+    background: url(https://dl.dropboxusercontent.com/u/32227426/mov2.png) no-repeat center center;
     height: 35px;
     width: 9px;
 }
 
 .cats_tv {
-    background: url(https://theonlydzr.github.io/Stylesheet/Lime/res/tv2.png) no-repeat center center;
+    background: url(https://dl.dropboxusercontent.com/u/32227426/tv2.png) no-repeat center center
+;
     height: 35px;
     width: 9px;
-}
-
-.mtv_download {
-    background: transparent;
-}
-
-.mtv_download:after {
-    /*  border: 3px solid;
-    border-radius: 100px; */
-    content: "";
-    font-family: 'Material Icons';
-    font-size: 21px;
-    padding: 0px;
-    transition: 0.3s;
-}
-
-.mtv_report {
-    background: transparent;
-}
-
-.mtv_report:after {
-    /*  border: 3px solid;
-    border-radius: 100px; */
-    content: "";
-    font-family: 'Material Icons';
-    font-size: 21px;
-    padding: 0px;
-    transition: 0.3s;
-}
-
-.mtv_report:hover {
-    color: #e6a1a1;
 }
 
 .torrent_table tr:not(.colhead):not(.colhead_dark) {
@@ -1494,30 +1452,18 @@ div.tp-banner img[src*="mtv_red_gloss"], div.tp-banner img[src*="default"] {
 
 a.brackets {
     color: #B5D96C;
-    font-size: 10px;
+    font-size: 12px;
     font-weight: bold;
     text-transform: uppercase;
 }
 
 a.brackets.tooltip {
-    font-size: 10px;
-    font-weight: bold;
-}
-
-a.brackets.tooltip.view_tag_user {
-    letter-spacing: 1px;
-}
-
-a.brackets.tooltip.vote_tag_down {
-    letter-spacing: 1px;
-}
-
-a.brackets.tooltip.vote_tag_up {
+    font-size: 12px;
     letter-spacing: 1px;
 }
 
 a.tooltip {
-    font-size: 13px;
+    font-size: 14px;
     font-weight: normal;
 }
 
@@ -1527,7 +1473,7 @@ a.username {
 }
 
 a.username:before {
-    content: "";
+    content: "?";
     font-family: 'Fontawesome';
     left: 0px;
     padding-right: 0.5em;
@@ -1544,25 +1490,18 @@ div.group_info.clear strong a {
     font-weight: normal;
 }
 
-div.group_info.group_info2.clear {
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-}
-
 div.group_info.group_info2.clear span {
-    margin-right: 0;
-    padding-left: 0;
+    padding: 10px;
 }
 
 div.head {
+    font-size: 14px;
     background-color: #383738;
-    border-bottom-width: 2px;
-    border-left-width: 0;
-    border-right-width: 0;
     border-style: none;
     border-top-width: 0;
-    font-size: 14px;
+    border-right-width: 0;
+    border-left-width: 0;
+    border-bottom-width: 2pxpxpx;
 }
 
 div.head strong {
@@ -1579,11 +1518,11 @@ div.submit.ft_submit input {
     font-size: 11px;
     height: 25px;
     text-transform: uppercase;
-    float: right;
 }
 
-.submit.ft_submit span {
+div.submit.ft_submit span {
     color: #ffffff;
+    float: right;
     font-size: 14px;
 }
 
@@ -1591,12 +1530,13 @@ div.tags a {
     background-color: #617a2b;
     border-radius: 2px;
     color: #ddf5ae;
-    font-size: 10px;
+    font-size: 9px;
     letter-spacing: 0.4px;
     padding-bottom: 1px;
     padding-left: 3px;
     padding-right: 3px;
     padding-top: 1px;
+    text-transform: uppercase;
 }
 
 div.tags a:hover {
@@ -1610,8 +1550,24 @@ div.thin h2 {
 }
 
 div.thin.widethin {
-    max-width: 1200px;
+    max-width: 1280px;
     min-width: 1024px;
+}
+
+div.tp-banner {
+    background-image: url(https://dl.dropboxusercontent.com/u/32227426/noban.png);
+    background-repeat: no-repeat;
+    background-size: 190px 35px;
+    height: 35px;
+}
+
+div.tp-banner img[src*="mtv_red_gloss"], div.tp-banner img[src*="default"] {
+    background-image: url(https://dl.dropboxusercontent.com/u/32227426/noban.png);
+    background-repeat: no-repeat;
+    background-size: 190px 35px;
+    height: 35px;
+    padding-left: 190px;
+    width: 0;
 }
 
 span.brackets {
@@ -1619,39 +1575,15 @@ span.brackets {
 }
 
 span.flag_fast {
-    background: transparent;
-    float: left;
-    padding-top: 6px;
-    width: 20px;
-}
-
-span.flag_fast:after {
-    content: "";
-    font-family: 'FontAwesome';
-    color: #ffd800;
-    font-size: 14px;
+    display: none;
 }
 
 span.flag_internal {
-    background: transparent;
-    float: left;
-    padding-top: 6px;
-    width: 25px;
+    display: none;
 }
 
-span.flag_internal:after {
-    content: "";
-    font-family: 'FontAwesome';
-    color: #c40000;
-    font-size: 14px;
-}
-
-span.flag_sticky:after {
-    content: "";
-    font-family: 'FontAwesome';
-    color: #5bb700;
-    font-size: 14px;
-    padding: 10px;
+span.flag_sticky {
+    display: none;
 }
 
 span.time.tooltip {
@@ -1675,21 +1607,18 @@ td.body {
     font-size: 14px;
 }
 
-td.body strong {
-}
-
 td.center.cats_col {
     height: 55px;
 }
 
 tr.colhead td {
-    border-bottom-width: 2pxpx;
-    border-color: #8BB23B;
-    border-left-width: 0;
-    border-right-width: 0;
-    border-style: none;
-    border-top-width: 0;
     font-size: 14px;
+    border-bottom-width: 2pxpx;
+    border-style: none;
+    border-right-width: 0;
+    border-left-width: 0;
+    border-top-width: 0;
+    border-color: #8BB23B;
 }
 
 tr.colhead_dark td {
@@ -1705,22 +1634,14 @@ tr.torrent:nth-child(odd) {
     background-color: #303030;
 }
 
-span.mtv_download {
-    margin-left: 10px;
+a.brackets.tooltip.vote_tag_up {
+    letter-spacing: 1px;
 }
 
-#userinfo {
-    display: flex;
+a.brackets.tooltip.vote_tag_down {
+    letter-spacing: 1px;
 }
 
-span.flag_sticky {
-    background: transparent;
-    float: left;
-    padding-top: 6px;
-    width: 35px;
+a.brackets.tooltip.view_tag_user {
+    letter-spacing: 1px;
 }
-
-div.main_column {
-    font-size:14px;
-}
-
