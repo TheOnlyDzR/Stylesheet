@@ -1655,6 +1655,7 @@ div.head strong {
 
 .mtv_download {
     background: transparent;
+	width: 25px;
 	padding-right: 2px;
     padding-left: 2px;
 }
@@ -1671,6 +1672,7 @@ div.head strong {
 
 .mtv_report {
     background: transparent;
+	width: 25px;
 	padding-right: 2px;
     padding-left: 2px;
 }
@@ -1690,3 +1692,46 @@ div.group_info.group_info2.clear span {
 	display: flex;
     flex-direction: row-reverse;
     }
+	
+	span.flag_sticky:after {
+    content: "";
+    font-size: 14px;
+    color: #94ff00;
+    font-family: "Fontawesome";
+}
+
+span.flag_internal:after {
+    content: "";
+    font-size: 14px;
+    color: #ff3838;
+    font-family: "Fontawesome";
+}
+
+span.flag_fast:after {
+    content: "";
+    font-size: 14px;
+    color: #ffe13d;
+    font-family: "Fontawesome";
+}
+
+span.flag_internal {
+    background: transparent;
+    width: 10px;
+    height: 30px;
+    line-height: 25px;
+    margin: 5px;
+}
+
+span.flag_fast {
+    background: transparent;
+    width: 10px;
+    line-height: 25px;
+    margin: 5px;
+}
+
+span.flag_sticky {
+    background: transparent;
+    width: 10px;
+    line-height: 25px;
+    margin: 5px;
+}
