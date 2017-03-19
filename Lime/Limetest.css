@@ -1735,3 +1735,12 @@ span.flag_sticky {
     line-height: 25px;
     margin: 5px;
 }
+
+div.submit.ft_submit {
+display: flex;
+}
+
+div.submit.ft_submit span {
+    text-align: right;
+    width: 84.2%;
+}
