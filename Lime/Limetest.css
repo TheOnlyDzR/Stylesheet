@@ -430,7 +430,7 @@ table.box2 {
     content: '➜';
     display: inline-block
 }
-#userinfo_minor:before,
+
 .linkbox br {
     content: ''
 }
