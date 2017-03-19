@@ -1685,6 +1685,8 @@ div.head strong {
     color: #e24a4a;
 } 
 
-div.group_info.group_info2.clear>span {
+div.group_info.group_info2.clear span {
     padding-right: 0px;
+	display: flex;
+    flex-direction: row-reverse;
     }
