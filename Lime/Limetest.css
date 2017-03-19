@@ -1695,3 +1695,8 @@ span.mtv_download {
     padding-right: 2px;
     padding-left: 2px;
 }
+
+div.group_info.group_info2.clear span {
+    padding-right: 0;
+    margin-right: 0;
+}
