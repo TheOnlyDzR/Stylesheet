@@ -566,12 +566,14 @@ table.box2 {
 }
 #userinfo_minor:before {
     display: block;
+	height: 51px;
+    width: 50px;
+    line-height: 50px;
     content: "\f0c9";
     font-family: 'Fontawesome';
     font-size: 18px;
     text-align: center;
-	height:51px;
-	width:50px;
+
 }
 }
 
