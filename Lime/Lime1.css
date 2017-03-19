@@ -548,7 +548,7 @@ table.box2 {
 }
 #userinfo_username:hover {
     right: 0;
-    border-radius: 0 10px 0 0
+
 
 }
 #userinfo_username #nav_userinfo>a {
@@ -660,10 +660,10 @@ table.box2 {
     top: 31px;
     right: -8px;
     background-color: #3b4d18;
-    border-radius: 0 5px 0 0
+    border-radius: 0 0 0 0
 }
 #menu {
-    border-radius: 5px 5px 0 0;
+    border-radius: 0 0 0 0;
     overflow: hidden
 }
 .linkbox br {
@@ -1484,7 +1484,7 @@ a.username {
 }
 
 a.username:before {
-    content: "?";
+    content: "\f2bd";
     font-family: 'Fontawesome';
     left: 0px;
     padding-right: 0.5em;
