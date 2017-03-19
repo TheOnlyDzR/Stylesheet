@@ -1270,6 +1270,7 @@ blockquote {
 
 table#torrent_table td.cats_col {
 min-width: 240px;
+}
 
 #ft_advanced_link a {
 	font-weight: 400;
