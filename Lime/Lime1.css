@@ -1292,7 +1292,7 @@ min-width: 240px;
 }
 
 #nav_collages a:before {
-    content: "?";
+    content: "\f00a";
     font-family: 'Fontawesome';
     left: 0px;
     padding-right: 0.5em;
@@ -1306,7 +1306,7 @@ min-width: 240px;
 }
 
 #nav_forums a:before {
-    content: "?";
+    content: "\f27a";
     font-family: 'Fontawesome';
     left: 0px;
     padding-right: 0.5em;
@@ -1404,7 +1404,7 @@ min-width: 240px;
 }
 
 #nav_torrents a:before {
-    content: "/f15b";
+    content: "\f15b";
     font-family: 'Fontawesome';
     left: 0px;
     padding-right: 0.5em;
