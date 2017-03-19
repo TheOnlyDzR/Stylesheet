@@ -1320,7 +1320,7 @@ min-width: 240px;
 }
 
 #nav_index a:before {
-    content: "?";
+    content: "\f015";
     font-family: 'Fontawesome';
     left: 0px;
     padding-right: 0.5em;
@@ -1334,7 +1334,7 @@ min-width: 240px;
 }
 
 #nav_irc a:before {
-    content: "?";
+    content: "\f0e6";
     font-family: 'Fontawesome';
     left: 0px;
     padding-right: 0.5em;
@@ -1348,7 +1348,7 @@ min-width: 240px;
 }
 
 #nav_market a:before {
-    content: "?";
+    content: "\f07a";
     font-family: 'Fontawesome';
     left: 0px;
     padding-right: 0.5em;
@@ -1362,7 +1362,7 @@ min-width: 240px;
 }
 
 #nav_requests a:before {
-    content: "?";
+    content: "\f00e";
     font-family: 'Fontawesome';
     left: 0px;
     padding-right: 0.5em;
@@ -1376,7 +1376,7 @@ min-width: 240px;
 }
 
 #nav_series a:before {
-    content: "?";
+    content: "\f26c";
     font-family: 'Fontawesome';
     left: 0px;
     padding-right: 0.5em;
@@ -1390,7 +1390,7 @@ min-width: 240px;
 }
 
 #nav_top10 a:before {
-    content: "?";
+    content: "/f161";
     font-family: 'Fontawesome';
     left: 0px;
     padding-right: 0.5em;
@@ -1404,7 +1404,7 @@ min-width: 240px;
 }
 
 #nav_torrents a:before {
-    content: "?";
+    content: "/f15b";
     font-family: 'Fontawesome';
     left: 0px;
     padding-right: 0.5em;
@@ -1418,7 +1418,7 @@ min-width: 240px;
 }
 
 #nav_wiki a:before {
-    content: "?";
+    content: "\f02d";
     font-family: 'Fontawesome';
     left: 0px;
     padding-right: 0.5em;
