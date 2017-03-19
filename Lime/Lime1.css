@@ -479,7 +479,7 @@ table.box2 {
     display: block;
     margin-top: 2px;
     height: 39px;
-    background: url(https://dl.dropboxusercontent.com/u/32227426/lolololo2.png) center no-repeat;
+    background: url(https://theonlydzr.github.io/Stylesheet/Lime/res/Logo.png) center no-repeat;
     background-size: 235px;
 }
 #menu>ul {
@@ -569,7 +569,7 @@ table.box2 {
     height: 51px;
     width: 50px;
     line-height: 50px;
-    background: url(https://dl.dropboxusercontent.com/u/32227426/menu.png) no-repeat;
+    background: url(url(https://theonlydzr.github.io/Stylesheet/Lime/res/menu.png) no-repeat;
     background-size: 20px 20px;
     background-position: center; 
 }
@@ -1281,7 +1281,7 @@ min-width: 240px;
 }
 
 #logo>a {
-    background: url(https://dl.dropboxusercontent.com/u/32227426/lolololo2.png) center no-repeat;
+    background: url(https://theonlydzr.github.io/Stylesheet/Lime/res/Logo.png) center no-repeat;
     background-size: 250px;
 }
 
@@ -1435,13 +1435,13 @@ min-width: 240px;
 }
 
 .cats_movies {
-    background: url(https://dl.dropboxusercontent.com/u/32227426/mov2.png) no-repeat center center;
+    background: url(https://theonlydzr.github.io/Stylesheet/Lime/res/mov2.png) no-repeat center center;
     height: 35px;
     width: 9px;
 }
 
 .cats_tv {
-    background: url(https://dl.dropboxusercontent.com/u/32227426/tv2.png) no-repeat center center
+    background: url(https://theonlydzr.github.io/Stylesheet/Lime/res/tv2.png) no-repeat center center
 ;
     height: 35px;
     width: 9px;
@@ -1564,14 +1564,14 @@ div.thin.widethin {
 }
 
 div.tp-banner {
-    background-image: url(https://dl.dropboxusercontent.com/u/32227426/noban.png);
+    background-image: url(https://theonlydzr.github.io/Stylesheet/Lime/res/nobanner.png);
     background-repeat: no-repeat;
     background-size: 190px 35px;
     height: 35px;
 }
 
 div.tp-banner img[src*="mtv_red_gloss"], div.tp-banner img[src*="default"] {
-    background-image: url(https://dl.dropboxusercontent.com/u/32227426/noban.png);
+    background-image: url(https://theonlydzr.github.io/Stylesheet/Lime/res/nobanner.png);
     background-repeat: no-repeat;
     background-size: 190px 35px;
     height: 35px;
