@@ -566,9 +566,6 @@ table.box2 {
 }
 #userinfo_minor:before {
     display: block;
-    height: 51px;
-    line-height: 50px;
-    width: 50px;
     content: "";
     font-family: 'Fontawesome';
     font-size: 18px;
