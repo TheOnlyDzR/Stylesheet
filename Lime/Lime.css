@@ -565,19 +565,21 @@ table.box2 {
     text-align: right
 }
 #userinfo_minor:before {
-  display: block;
-    height: 51px;
+    display: block;
+	height: 51px;
     width: 50px;
-    line-height: 50px;
-    background: url(url(https://theonlydzr.github.io/Stylesheet/Lime/res/menu.png) no-repeat;
-    background-size: 20px 20px;
-    background-position: center; 
+    line-height: 51px;
+    content: "\f0c9";
+    font-family: 'Fontawesome';
+    font-size: 18px;
+    text-align: center;
 }
 
 #userinfo_minor:hover:before {
-    margin-left: 100px;
+    padding-left: 100px;
+    text-align: center;
     transition: 0.3s;
-    filter: brightness(30%);
+    filter: brightness(20%);
 }
 #userinfo_major>li,
 #userinfo_stats>li,
@@ -1458,7 +1460,6 @@ min-width: 240px;
 
 a.brackets.tooltip {
     font-size: 11px;
-    letter-spacing: 1px;
 }
 
 a.brackets.tooltip.view_tag_user {
@@ -1499,10 +1500,6 @@ div strong a {
 div.group_info.clear strong a {
     font-size: 14px;
     font-weight: normal;
-}
-
-div.group_info.group_info2.clear span {
-    padding: 10px;
 }
 
 div.head {
@@ -1584,7 +1581,7 @@ span.brackets {
     font-size: 14px;
 }
 
-span.flag_fast {
+/* span.flag_fast {
     display: none;
 }
 
@@ -1593,7 +1590,7 @@ span.flag_internal {
 }
 
 span.flag_sticky {
-    display: none;
+    display: none; */
 }
 
 span.time.tooltip {
@@ -1656,5 +1653,94 @@ div.head strong {
     font-weight: normal;
 }
 
-span.size3 {
+.mtv_download {
+    background: transparent;
+	width: 25px;
+	padding-right: 2px;
+    padding-left: 2px;
+}
+
+.mtv_download:before {
+    content: "";
+    font-family: "Material Icons";
+    font-size: 20px;
+}
+
+.mtv_download:hover {
+    color: #b4e54b;
+}
+
+.mtv_report {
+    background: transparent;
+	width: 25px;
+	padding-right: 2px;
+    padding-left: 2px;
+}
+
+.mtv_report:before {
+    content: "";
+    font-family: "Material Icons";
+    font-size: 20px;
+}
+
+.mtv_report:hover {
+    color: #e24a4a;
+} 
+
+div.group_info.group_info2.clear span {
+    padding-right: 0px;
+	display: flex;
+    flex-direction: row-reverse;
+    }
+	
+	span.flag_sticky:after {
+    content: "";
+    font-size: 14px;
+    color: #94ff00;
+    font-family: "Fontawesome";
+}
+
+span.flag_internal:after {
+    content: "";
+    font-size: 14px;
+    color: #ff3838;
+    font-family: "Fontawesome";
+}
+
+span.flag_fast:after {
+    content: "";
+    font-size: 14px;
+    color: #ffe13d;
+    font-family: "Fontawesome";
+}
+
+span.flag_internal {
+    background: transparent;
+    width: 10px;
+    height: 30px;
+    line-height: 25px;
+    margin: 5px;
+}
+
+span.flag_fast {
+    background: transparent;
+    width: 10px;
+    line-height: 25px;
+    margin: 5px;
+}
+
+span.flag_sticky {
+    background: transparent;
+    width: 10px;
+    line-height: 25px;
+    margin: 5px;
+}
+
+div.submit.ft_submit {
+display: flex;
+}
+
+div.submit.ft_submit span {
+    text-align: right;
+    width: 84.2%;
 }
