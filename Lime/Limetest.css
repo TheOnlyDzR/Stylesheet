@@ -1658,5 +1658,40 @@ div.head strong {
     font-weight: normal;
 }
 
-span.size3 {
+.mtv_download {
+    background: transparent;
+}
+
+.mtv_download:before {
+    content: "";
+    font-family: "Material Icons";
+    font-size: 20px;
+}
+
+.mtv_download:hover {
+    color: #b4e54b;
+}
+
+.mtv_report {
+    background: transparent;
+}
+
+.mtv_report:before {
+    content: "";
+    font-family: "Material Icons";
+    font-size: 20px;
+}
+
+.mtv_report:hover {
+    color: #e24a4a;
+}
+
+span.mtv_report {
+    padding-right: 2px;
+    padding-left: 2px;
+}
+
+span.mtv_download {
+    padding-right: 2px;
+    padding-left: 2px;
 }
