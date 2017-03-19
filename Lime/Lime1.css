@@ -1452,14 +1452,9 @@ min-width: 240px;
 
 a.brackets {
     color: #B5D96C;
-    font-size: 12px;
     font-weight: bold;
     text-transform: uppercase;
-}
-
-a.brackets.tooltip {
-    font-size: 12px;
-    letter-spacing: 1px;
+    font-size: 10px;
 }
 
 a.tooltip {
@@ -1646,3 +1641,7 @@ a.brackets.tooltip.view_tag_user {
     letter-spacing: 1px;
 }
 
+a.brackets.tooltip {
+    font-size: 10px;
+    font-weight: bold;
+}
