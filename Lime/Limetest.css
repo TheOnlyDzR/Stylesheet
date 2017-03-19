@@ -1586,7 +1586,7 @@ span.brackets {
     font-size: 14px;
 }
 
-span.flag_fast {
+/* span.flag_fast {
     display: none;
 }
 
@@ -1595,7 +1595,7 @@ span.flag_internal {
 }
 
 span.flag_sticky {
-    display: none;
+    display: none; */
 }
 
 span.time.tooltip {
@@ -1660,7 +1660,7 @@ div.head strong {
 
 .mtv_download {
     background: transparent;
-	    padding-right: 2px;
+	padding-right: 2px;
     padding-left: 2px;
 }
 
@@ -1676,7 +1676,7 @@ div.head strong {
 
 .mtv_report {
     background: transparent;
-	    padding-right: 2px;
+	padding-right: 2px;
     padding-left: 2px;
 }
 
@@ -1689,3 +1689,7 @@ div.head strong {
 .mtv_report:hover {
     color: #e24a4a;
 } 
+
+div.group_info.group_info2.clear>span {
+    padding-right: 0px;
+    }
