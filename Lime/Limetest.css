@@ -565,13 +565,15 @@ table.box2 {
     text-align: right
 }
 #userinfo_minor:before {
-  display: block;
+    display: block;
     height: 51px;
-    width: 50px;
     line-height: 50px;
-    background: url (https://theonlydzr.github.io/Stylesheet/Lime/res/menu.png) no-repeat;
-    background-size: 20px 20px;
-    background-position: center; 
+    width: 50px;
+    content: "";
+    font-family: 'Fontawesome';
+    font-size: 18px;
+    position: relative;
+    text-align: center;
 }
 
 #userinfo_minor:hover:before {
