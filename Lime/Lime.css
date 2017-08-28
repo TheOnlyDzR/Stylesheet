@@ -2,6 +2,13 @@
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
 @import url("https://fonts.googleapis.com/icon?family=Material+Icons");
 
+@media (max-width:1280px) {
+    
+#userinfo ul  {
+    display: flex !important;
+}
+}
+
 * {
 font-family: Roboto;
 }
