@@ -26,8 +26,20 @@ select:active,
 select:focus,
 textarea:active,
 textarea:focus {
-    outline: 0
+    outline: 0;
 }
+
+pre, xmp, plaintext, listing {
+display: block;
+font-family: monospace;
+white-space: pre;
+margin: 1em 0px;
+}
+
+tt, code, kbd, samp {
+font-family: monospace;
+}
+
 #content>.thin,
 .box,
 .box2,
