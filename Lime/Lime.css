@@ -36,6 +36,10 @@ white-space: pre;
 margin: 1em 0px;
 }
 
+tt, code, kbd, samp {
+font-family: monospace;
+}
+
 #content>.thin,
 .box,
 .box2,
