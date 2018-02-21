@@ -1550,7 +1550,7 @@ div.submit.ft_submit span {
 div.tags a {
     background-color: #7a2b2b;
     border-radius: 2px;
-    color: #f5aeae;
+    color: #ff5c5c;
     font-size: 9px;
     letter-spacing: 0.4px;
     padding-bottom: 1px;
@@ -1561,7 +1561,7 @@ div.tags a {
 }
 
 div.tags a:hover {
-    background-color: #B3CB82;
+    background-color: #cb8585;
     color: #000000;
     transition: 0.3s;
 }
