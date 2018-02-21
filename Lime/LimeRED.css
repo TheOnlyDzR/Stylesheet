@@ -643,44 +643,44 @@ table.box2 {
     background-color: #2b2a2b
 }
 #menu li:nth-child(1) {
-    background-color: #95bc42
+    background-color: #cb403a
 }
 #menu li:nth-child(2) {
-    background-color: #8BB23B
+    background-color: #c13c34
 }
 #menu li:nth-child(3) {
-    background-color: #83A737
+    background-color: #b53731
 }
 #menu li:nth-child(4) {
-    background-color: #7B9D34
+    background-color: #aa332d
 }
 #menu li:nth-child(5) {
-    background-color: #739330
+    background-color: #9f302a
 }
 #menu li:nth-child(6) {
-    background-color: #6B892D
+    background-color: #952d27
 }
 #menu li:nth-child(7) {
-    background-color: #637F2A
+    background-color: #8a2b25
 }
 #menu li:nth-child(8) {
-    background-color: #5B7526
+    background-color: #7e2722
 }
 #menu li:nth-child(9) {
-    background-color: #536B23
+    background-color: #73231f
 }
 #menu li:nth-child(10) {
-    background-color: #4B611F
+    background-color: #69201b
 }
 
 #userinfo_username {
     right: 50px;
-    background-color: #43571c
+    background-color: #5e1d18;
 }
 #userinfo_minor {
     top: 31px;
     right: -8px;
-    background-color: #3b4d18;
+    background-color: #531915;
     border-radius: 0 0 0 0
 }
 #menu {
