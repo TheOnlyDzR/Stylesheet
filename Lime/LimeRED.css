@@ -545,18 +545,20 @@ table.box2 {
 }
 #userinfo_minor:hover,
 #userinfo_username:hover {
-
     z-index: 800;
-    background-color: #f4f4f4
+    background-color: #f4f4f4;
 }
 #userinfo_minor:hover a,
 #userinfo_username:hover a {
     display: block;
-    color: #1d1c1d
+    color: #1d1c1d;
 }
-#userinfo_minor:hover a:hover,
+#userinfo_minor:hover a:hover {
+    background-color: #e6a1a1;
+}
+
 #userinfo_username:hover a:hover {
-    background-color: #e6a1a1
+    background-color: #e6a1a1;
 }
 #userinfo_minor a,
 #userinfo_username a {
