@@ -1302,11 +1302,6 @@ min-width: 240px;
     min-width: 1024px;
 }
 
-#logo>a {
-    background: url(res/Logo.png) center no-repeat;
-    background-size: 250px;
-}
-
 #nav_collages a {
     font-size: 16px;
     transition: 0.3s;
