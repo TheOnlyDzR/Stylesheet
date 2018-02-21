@@ -491,13 +491,13 @@ table.box2 {
 #logo {
     box-sizing: content-box;
     width: 235px;
-    height: 39px;
-    padding: 24px 8px 16px;
+    height: 60px;
+    padding: 24px 0px 16px;
 }
 #logo>a {
     display: block;
     margin-top: 2px;
-    height: 39px;
+    height: 60px;
     background: url(res/LogoRED.png) center no-repeat;
     background-size: 235px;
 }
@@ -531,7 +531,7 @@ table.box2 {
 }
 #menu>ul>#nav_staff>a {
     padding: 0;
-    line-height: 1.6
+    line-height: 5.1;
 }
 #menu>ul>#nav_staff>a:hover {
     background-color: transparent;
