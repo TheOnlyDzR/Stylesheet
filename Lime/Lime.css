@@ -457,25 +457,25 @@ table.box2 {
     background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQAgMAAABinRfyAAAACVBMVEX///+UlJSUlJT2VwJEAAAAAnRSTlMAAHaTzTgAAAAtSURBVHhefYuhEQAwCMTetvv9Pl2CIfgpoSBwRORiguFKD4dMydeyqlZtrU8A6JMUKeHoG3AAAAAASUVORK5CYII=) center no-repeat;
 }
 .unread {
-    background: url(res/unread.png) center no-repeat;
+    background: url(https://theonlydzr.github.io/Stylesheet/Lime/res/unread.png) center no-repeat;
 }
 .read_locked {
     background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAD1BMVEX///+UlJSUlJSUlJSUlJQwXinZAAAABHRSTlMAAFZXqn1YHwAAADxJREFUeF6VirERACAIxBxBmYCCERhAOPefyQc8KxtT5fLfHqxgQmyAFAT7Kj2LOZ0iwiXkMeGqyiH1uWz5Fw69ZPQ3OgAAAABJRU5ErkJggg==) center no-repeat;
 }
 .unread_locked {
-    background: url(res/unread_locked.png) center no-repeat;
+    background: url(https://theonlydzr.github.io/Stylesheet/Lime/res/unread_locked.png) center no-repeat;
 }
 .read_sticky {
     background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAG1BMVEWUlJT///+UlJSUlJSUlJSUlJSUlJSUlJSUlJTf0GgPAAAACHRSTlMAAFFTUl5URdDB1TQAAABISURBVHhehcahEYAwEADBY0AgE4ekDCRlUAKSEp6oKxvmJwLHqqV2lBlgeOPO4V1ZbMCbsmlkRiWDrcdzzVwxRSaAv6j6Te0es5kZ6IK/EdsAAAAASUVORK5CYII=) center no-repeat;
 }
 .unread_sticky {
-    background: url(res/unread_sticky.png) center no-repeat;
+    background: url(https://theonlydzr.github.io/Stylesheet/Lime/res/unread_sticky.png) center no-repeat;
 }
 .read_locked_sticky {
     background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAIVBMVEX///+UlJSUlJSUlJSUlJSUlJSUlJSUlJSUlJSUlJSUlJQ8L084AAAACnRSTlMAAFZRUlNXVF5FRF9ofwAAAFxJREFUeF49zLEVgCAMBNDQWhmeNlbUdI7gGo7ACI5g5wYGu5vSkPC46r+7vNBI2FgzK3DwjZdowqeNIpyAGFbAG9at49oNjyxiEPvjqLE3OSdHrG0CpJTkaDcjPwJ6HWxMBPutAAAAAElFTkSuQmCC) center no-repeat;
 }
 .unread_locked_sticky {
-    background: url(res/unread_locked_sticky.png) center no-repeat;
+    background: url(https://theonlydzr.github.io/Stylesheet/Lime/res/unread_locked_sticky.png) center no-repeat;
 }
 #header,
 #userinfo {
@@ -498,7 +498,7 @@ table.box2 {
     display: block;
     margin-top: 2px;
     height: 39px;
-    background: url(res/Logo.png) center no-repeat;
+    background: url(https://theonlydzr.github.io/Stylesheet/Lime/res/Logo.png) center no-repeat;
     background-size: 235px;
 }
 #menu>ul {
@@ -1303,7 +1303,7 @@ min-width: 240px;
 }
 
 #logo>a {
-    background: url(res/Logo.png) center no-repeat;
+    background: url(https://theonlydzr.github.io/Stylesheet/Lime/res/Logo.png) center no-repeat;
     background-size: 250px;
 }
 
@@ -1457,13 +1457,13 @@ min-width: 240px;
 }
 
 .cats_movies {
-    background: url(res/mov2.png) no-repeat center center;
+    background: url(https://theonlydzr.github.io/Stylesheet/Lime/res/mov2.png) no-repeat center center;
     height: 35px;
     width: 9px;
 }
 
 .cats_tv {
-    background: url(res/tv2.png) no-repeat center center
+    background: url(https://theonlydzr.github.io/Stylesheet/Lime/res/tv2.png) no-repeat center center
 ;
     height: 35px;
     width: 9px;
@@ -1581,14 +1581,14 @@ div.thin.widethin {
 }
 
 div.tp-banner {
-    background-image: url(res/nobanner.png);
+    background-image: url(https://theonlydzr.github.io/Stylesheet/Lime/res/nobanner.png);
     background-repeat: no-repeat;
     background-size: 190px 35px;
     height: 35px;
 }
 
 div.tp-banner img[src*="mtv_red_gloss"], div.tp-banner img[src*="default"] {
-    background-image: url(res/nobanner.png);
+    background-image: url(https://theonlydzr.github.io/Stylesheet/Lime/res/nobanner.png);
     background-repeat: no-repeat;
     background-size: 190px 35px;
     height: 35px;
