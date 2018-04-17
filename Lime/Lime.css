@@ -1763,3 +1763,62 @@ div.submit.ft_submit span {
 .unreadpm {
     background-color: #666666;
 }
+
+.brackets:after, .brackets:before {
+    display: none;
+}
+
+.head a.brackets:nth-child(1) {
+    font-size: 0px;
+}
+
+.head a.brackets:nth-child(1):after {
+    content: '';
+    display: inline-block;
+    font-family: FontAwesome;
+    font-size: 10px;
+    line-height: 42px;
+}
+
+.head a.brackets:nth-child(1):hover:after {
+    color: #e1ffa3;
+    transition: color 0.5s ease;
+}
+
+a.brackets.tooltip.view_tag_user {
+    color: #c2c2c2;
+    padding-right: 2px;
+}
+
+a.brackets.tooltip.vote_tag_down {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+    padding-left: 4px;
+    padding-right: 7px;
+}
+
+a.brackets.tooltip.vote_tag_up {
+    font-size: 12px;
+    font-weight: normal;
+    padding-right: 2px;
+}
+
+a.brackets:hover {
+    color: #d7efa2;
+    transition: color 0.5s ease;
+}
+
+div.album_votes.body {
+    font-size: 14px;
+}
+
+span.favoritecount {
+    font-size: 12px;
+}
+
+span.tooltip_interactive {
+    font-size: 14px;
+}
+
+
